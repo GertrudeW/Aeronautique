@@ -17,6 +17,19 @@ public class Avion {
 		
 	}
 
+	
+
+	public String getNOM_AV() {
+		return NOM_AV;
+	}
+
+
+
+	public void setNOM_AV(String nOM_AV) {
+		NOM_AV = nOM_AV;
+	}
+
+
 
 	@Override
 	public String toString() {
