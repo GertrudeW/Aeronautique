@@ -5,7 +5,7 @@ public class Pilote {
 	private String NOM_PIL;
 	private int salaire;
 	private String adresse;
-	
+	private String adresse2; // ajout test
 	public Pilote(int numero, String nom, String adresse, int salaire) {
 		super();
 		this.NUMPIL = numero;
