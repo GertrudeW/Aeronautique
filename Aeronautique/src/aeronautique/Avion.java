@@ -31,6 +31,18 @@ public class Avion {
 
 
 
+	public String getLoc() {
+		return loc;
+	}
+
+
+
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+
+
+
 	@Override
 	public String toString() {
 		return "Avion [NUMAV=" + NUMAV + ", NOM_AV=" + NOM_AV + ", capacite=" + capacite + ", loc=" + loc + "]";
