@@ -15,6 +15,10 @@ public class Pilote {
 		
 	}
 
+	public int getNUMPIL() {
+		return NUMPIL;
+	}
+
 	@Override
 	public String toString() {
 		return "Pilote [NUMPIL=" + NUMPIL + ", NOM_PIL=" + NOM_PIL + ", salaire=" + salaire + ", adresse=" + adresse
